@@ -17,37 +17,37 @@ public class Main {
             System.out.println("Enter Student Information:");
 
             System.out.print("First Name:");
-            studentFirstName = scan.nextLine();
+                studentFirstName = scan.nextLine();
 
             System.out.print("Last Name:");
-            studentLastName = scan.nextLine();
+                studentLastName = scan.nextLine();
 
             System.out.print("ID:");
-            studentID = scan.nextLine();
+                studentID = scan.nextLine();
 
             System.out.print("Course:");
-            course = scan.nextLine();
+                course = scan.nextLine();
 
             System.out.print("Section:");
-            section = scan.nextLine();
+                section = scan.nextLine();
 
             System.out.println("Enter the following scores:");
 
             System.out.print("Prelim Score:");
-            PrelimScore = scan.nextInt();
+                PrelimScore = scan.nextInt();
 
             System.out.print("Midterm Score:");
-            MidtermScore = scan.nextInt();
+                MidtermScore = scan.nextInt();
 
             System.out.print("Semi-Final Score:");
-            SemiFinalScore = scan.nextInt();
+                SemiFinalScore = scan.nextInt();
 
             System.out.print("Final Score:");
-            FinalScore = scan.nextInt();
+                FinalScore = scan.nextInt();
 
             double generalAverage = 0;
-            generalAverage = ((PrelimScore + MidtermScore + SemiFinalScore + FinalScore) / 400d)*100;
-            System.out.println("GWA: " +generalAverage);
+                generalAverage = ((PrelimScore + MidtermScore + SemiFinalScore + FinalScore) / 400d)*100;
+                    System.out.println("GWA: " +generalAverage);
 
         if(generalAverage < 75){
             System.out.println("REMARKS: FAILED");
